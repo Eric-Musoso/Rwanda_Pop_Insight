@@ -12,8 +12,8 @@ import branca.colormap as cm
 app = Dash(__name__)
 server = app.server
 # Read the GeoJSON and population data
-gdf = gpd.read_file(r'D:\Munster\ThirdSemester\Mystuff\Popdata.geojson')
-gdf1 = gpd.read_file(r'D:\Munster\ThirdSemester\Mystuff\adminbdr.geojson')
+gdf = gpd.read_file('Popdata.geojson')
+gdf1 = gpd.read_file('adminbdr.geojson')
 
 # Filter relevant columns from admin boundaries
 filtered_gdf1 = gdf1[['shapeName', 'geometry']]
