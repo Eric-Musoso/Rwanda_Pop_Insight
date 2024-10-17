@@ -10,7 +10,7 @@ import branca.colormap as cm
 
 # Initialize Dash app
 app = Dash(__name__)
-
+server = app.server
 # Read the GeoJSON and population data
 gdf = gpd.read_file(r'D:\Munster\ThirdSemester\Mystuff\Popdata.geojson')
 gdf1 = gpd.read_file(r'D:\Munster\ThirdSemester\Mystuff\adminbdr.geojson')
