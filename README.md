@@ -1,4 +1,6 @@
 # Rwanda Population Insights Dashboard
+[Pop Dashboard](https://rwanda-pop-insight-dashboard.onrender.com/)
+
 Overview
 This project is a Dash web application that provides interactive visualizations of population data in Rwanda. The dashboard allows users to explore population insights, such as total population per district, male vs. female population comparisons, and population trends over time. The visualizations include:
 
@@ -33,8 +35,6 @@ Branca: pip install branca
 
 
 
-
-![App](https://github.com/user-attachments/assets/e7ca933e-5e8d-41a5-85ce-d4a1283e0087)
 
 
 
